@@ -28,6 +28,10 @@ h1 {
 	color: #95DBD0;
 }
 
+a:hover {
+  color: lightgray;
+}
+
 .content {
 	font-family: "Open Sans", sans-serif;
 	font-weight: normal;

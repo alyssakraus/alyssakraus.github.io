@@ -231,7 +231,17 @@ h3 {
 		padding-right: 10px;
 	}
 	.bluebox {
-		padding-bottom: 2000px;
+		padding-bottom: 1600px;
+	}
+	.icon2 {
+		width: 55px;
+		padding-top: 560px;
+	}
+	.vertical-line2 {
+		height: 1260px;
+	}
+	.icon3 {
+		padding-top: 1320px;
 	}
 }
 

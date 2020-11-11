@@ -435,4 +435,6 @@ h3 {
 	.container .resume-text {
 		padding-left: 10px;
 	}
+	.headline {
+		display: none;
 }

@@ -25,7 +25,7 @@ h1 {
 }
 
 .active a {
-	color: #95DBD0;
+	color: lightgray;
 }
 
 a:hover {

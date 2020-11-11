@@ -230,6 +230,9 @@ h3 {
 	.logo6 {
 		padding-right: 10px;
 	}
+	.bluebox {
+		padding-bottom: 2000px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

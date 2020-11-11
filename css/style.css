@@ -223,6 +223,13 @@ h3 {
 	display: none;
 }
 
+@media (min-width: 1200px) {
+	.logo2 { 
+	padding-right: 5px;}
+	.logo6 { 
+	padding-right: 10px;}
+}
+
 @media (min-width: 992px) and (max-width: 1199px) {
 	img {
 		width: 240px;

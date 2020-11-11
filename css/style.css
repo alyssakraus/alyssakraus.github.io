@@ -29,7 +29,7 @@ h1 {
 }
 
 a:hover {
-  color: lightgray;
+	color: lightgray;
 }
 
 .content {
@@ -224,10 +224,12 @@ h3 {
 }
 
 @media (min-width: 1200px) {
-	.logo2 { 
-	padding-right: 5px;}
-	.logo6 { 
-	padding-right: 10px;}
+	.logo2 {
+		padding-right: 5px;
+	}
+	.logo6 {
+		padding-right: 10px;
+	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -449,4 +451,5 @@ h3 {
 	}
 	.headline {
 		display: none;
+	}
 }

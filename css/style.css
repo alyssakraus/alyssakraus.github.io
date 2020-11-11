@@ -52,8 +52,9 @@ a:hover {
 .bluebox {
 	background-color: #537598;
 	padding-bottom: 1450px;
-	border-top: 3px solid white;
+	border-top: 10px solid white;
 	color: white;
+	margin-left: 10px;
 }
 
 .bluebox img {

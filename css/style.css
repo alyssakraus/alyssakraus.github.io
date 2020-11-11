@@ -230,19 +230,6 @@ h3 {
 	.logo6 {
 		padding-right: 10px;
 	}
-	.bluebox {
-		padding-bottom: 1600px;
-	}
-	.icon2 {
-		width: 55px;
-		padding-top: 560px;
-	}
-	.vertical-line2 {
-		height: 1260px;
-	}
-	.icon3 {
-		padding-top: 1320px;
-	}
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {

@@ -223,6 +223,132 @@ h3 {
 	display: none;
 }
 
+.timeline {
+	white-space: nowrap;
+	overflow-x: scroll;
+	padding: 20px 90px 30px 90px;
+	position: relative;
+}
+
+.entry {
+	display: inline-block;
+	vertical-align: top;
+	background: #ff7875;
+	padding: 10px;
+	font-size: 12px;
+	text-align: center;
+	position: relative;
+	border-top: 4px solid black;
+	border-radius: 3px;
+	min-width: 110px;
+	max-width: 410px;
+}
+
+.entry h1 {
+	font-size: 18px;
+	font-family: "Open Sans", sans-serif;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.project-header h1 {
+	font-size: 35px;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 30px;
+}
+
+.project-header img {
+	margin-left: 320px;
+	width: 55%;
+	padding-top: 20px;
+}
+
+.poster {
+	width: 50%;
+}
+
+.caption {
+	margin-left: 155px;
+}
+
+.caption,
+.head-caption {
+	color: gray;
+	padding-top: 10px;
+	font-size: 12px;
+}
+
+.head-caption {
+	margin-left: 320px;
+}
+
+.article p,
+h2 {
+	margin-left: 320px;
+	margin-right: 320px;
+}
+
+.article p,
+.vertical {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	font-size: 15px;
+}
+
+.vertical p {
+	margin-left: 320px;
+}
+
+.vertical .caption {
+	margin-left: 0px;
+	margin-right: 270px;
+	padding-top: 20px;
+}
+
+.vertical img {
+	width: 57%;
+	padding-top: 10px;
+}
+
+hr {
+	border-top: solid 2px #ff7875;
+	width: 35%;
+	margin-top: 35px;
+	margin-bottom: 30px;
+}
+
+.twitter-tweet {
+	margin-left: 400px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.article a {
+	color: #537598;
+	font-weight: bold;
+}
+
+.data {
+	padding: 30px 100px 30px 100px;
+}
+
+.data2 {
+	padding: 30px 150px 30px 150px;
+}
+
+.deck {
+	font-family: "Open Sans", sans-serif;
+	font-weight: normal;
+	font-size: 19px;
+	text-align: center;
+}
+
+.photography {
+	width: 55%;
+	margin-left: 320px;
+}
+
 @media (min-width: 1200px) {
 	.logo2 {
 		padding-right: 5px;
@@ -290,6 +416,69 @@ h3 {
 	}
 	.bluebox {
 		padding-bottom: 1700px;
+	}
+	.project-header img {
+		margin-left: 40px;
+		width: 90%;
+	}
+	.project-header h1 {
+		font-size: 40px;
+		margin-left: 50px;
+		margin-right: 100px;
+	}
+	.deck {
+		font-size: 24px;
+	}
+	.article p,
+	h2 {
+		margin-left: 230px;
+		margin-right: 230px;
+	}
+	.article h2 {
+		font-size: 30px;
+	}
+	.caption {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.timeline {
+		padding-left: 40px;
+		padding-right: 80px;
+	}
+	.twitter-tweet {
+		margin-left: 250px;
+		margin-right: 20px;
+	}
+	.photography {
+		margin-left: 100px;
+		width: 80%;
+	}
+	hr {
+		width: 40%;
+	}
+	.vertical p {
+		margin-left: 230px;
+		width: 100%;
+	}
+	.vertical img {
+		width: 85%;
+	}
+	.article p {
+		font-size: 17px;
+	}
+	.data {
+		padding: 10px 70px 10px 50px;
+	}
+	.data2 {
+		padding: 10px 50px 10px 50px;
+	}
+	.head-caption {
+		margin-left: 40px;
+		margin-right: 20px;
+	}
+	.head-caption,
+	.caption {
+		font-size: 15px;
 	}
 }
 
@@ -390,6 +579,73 @@ h3 {
 	.vertical-line3 {
 		height: 370px;
 	}
+	.project-header img {
+		margin-left: 30px;
+		width: 90%;
+	}
+	.project-header h1 {
+		font-size: 33px;
+		margin-left: 50px;
+		margin-right: 50px;
+	}
+	.deck {
+		font-size: 19px;
+	}
+	.article p,
+	h2 {
+		margin-left: 130px;
+		margin-right: 120px;
+	}
+	.article h2 {
+		font-size: 23px;
+	}
+	.caption {
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.timeline {
+		padding-left: 40px;
+		padding-right: 40px;
+	}
+	.entry {
+		font-size: 12px;
+		border-top: 3px solid black;
+	}
+	.twitter-tweet {
+		margin-left: 115px;
+		margin-right: 20px;
+	}
+	.photography {
+		margin-left: 50px;
+		width: 85%;
+	}
+	hr {
+		width: 35%;
+	}
+	.vertical p {
+		margin-left: 130px;
+		width: 100%;
+	}
+	.vertical img,
+	.vertical .caption {
+		display: none;
+	}
+	.vertical img {
+		width: 85%;
+	}
+	.article p {
+		font-size: 15px;
+	}
+	.data {
+		padding: 10px 50px 10px 50px;
+	}
+	.data2 {
+		padding: 10px 50px 10px 50px;
+	}
+	.head-caption {
+		margin-left: 30px;
+		margin-right: 20px;
+	}
 }
 
 @media (max-width: 767px) {
@@ -451,5 +707,71 @@ h3 {
 	}
 	.headline {
 		display: none;
+	}
+	.project-header img {
+		margin-left: 20px;
+		width: 90%;
+	}
+	.project-header h1 {
+		font-size: 28px;
+	}
+	.deck {
+		font-size: 16px;
+	}
+	.article p,
+	h2 {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.article h2 {
+		font-size: 21px;
+	}
+	.caption {
+		margin-left: 8px;
+		margin-right: 15px;
+	}
+	.head-caption {
+		margin-left: 20px;
+		margin-right: 10px;
+	}
+	.timeline {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.entry {
+		font-size: 10px;
+		border-top: 3px solid black;
+	}
+	.twitter-tweet {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.photography {
+		margin-left: 20px;
+		width: 90%;
+	}
+	hr {
+		width: 40%;
+	}
+	.vertical p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+	.vertical img,
+	.vertical .caption {
+		margin-left: 20px;
+		margin-right: 30px;
+	}
+	.vertical img {
+		width: 85%;
+	}
+	.article p {
+		font-size: 13px;
+	}
+	.data {
+		padding: 10px 20px 10px 20px;
+	}
+	.data2 {
+		padding: 10px 20px 10px 20px;
 	}
 }

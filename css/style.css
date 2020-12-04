@@ -283,8 +283,8 @@ h3 {
 	margin-left: 320px;
 }
 
-.article p,
-h2 {
+.article p, 
+.article h2 {
 	margin-left: 320px;
 	margin-right: 320px;
 }
@@ -430,7 +430,7 @@ hr {
 		font-size: 24px;
 	}
 	.article p,
-	h2 {
+	.article h2 {
 		margin-left: 230px;
 		margin-right: 230px;
 	}
@@ -592,7 +592,7 @@ hr {
 		font-size: 19px;
 	}
 	.article p,
-	h2 {
+	.article h2 {
 		margin-left: 130px;
 		margin-right: 120px;
 	}
@@ -719,7 +719,7 @@ hr {
 		font-size: 16px;
 	}
 	.article p,
-	h2 {
+	.article h2 {
 		margin-left: 20px;
 		margin-right: 20px;
 	}
